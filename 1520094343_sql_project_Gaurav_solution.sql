@@ -1,3 +1,4 @@
+
 /* Welcome to the SQL mini project. For this project, you will use
 Springboard' online SQL platform, which you can log into through the
 following link:
@@ -134,4 +135,5 @@ FROM(SELECT name,
      INNER JOIN Facilities ON Bookings.facid = Facilities.facid
      GROUP BY name) AS inner_table
 WHERE revenue < 1000
+
 ORDER BY revenue;
